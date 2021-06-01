@@ -73,11 +73,72 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HasilSiswa.Designer.vb">
+      <DependentUpon>HasilSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HasilSiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IformasiSekolah.Designer.vb">
+      <DependentUpon>IformasiSekolah.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IformasiSekolah.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IJurusan.Designer.vb">
+      <DependentUpon>IJurusan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IJurusan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KoreksiTest.Designer.vb">
+      <DependentUpon>KoreksiTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KoreksiTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageGuru.Designer.vb">
+      <DependentUpon>ManageGuru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageGuru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSiswa.Designer.vb">
+      <DependentUpon>ManageSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUjian.Designer.vb">
+      <DependentUpon>ManageUjian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUjian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master.Designer.vb">
+      <DependentUpon>Master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,13 +156,73 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PendaftaranSiswa.Designer.vb">
+      <DependentUpon>PendaftaranSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PendaftaranSiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegConfirm.Designer.vb">
+      <DependentUpon>RegConfirm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegConfirm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestSiswa.Designer.vb">
+      <DependentUpon>TestSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestSiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HasilSiswa.resx">
+      <DependentUpon>HasilSiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IformasiSekolah.resx">
+      <DependentUpon>IformasiSekolah.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IJurusan.resx">
+      <DependentUpon>IJurusan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KoreksiTest.resx">
+      <DependentUpon>KoreksiTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageGuru.resx">
+      <DependentUpon>ManageGuru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageSiswa.resx">
+      <DependentUpon>ManageSiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUjian.resx">
+      <DependentUpon>ManageUjian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master.resx">
+      <DependentUpon>Master.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendaftaranSiswa.resx">
+      <DependentUpon>PendaftaranSiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegConfirm.resx">
+      <DependentUpon>RegConfirm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestSiswa.resx">
+      <DependentUpon>TestSiswa.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -114,7 +235,9 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
